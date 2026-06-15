@@ -1,6 +1,6 @@
 package main.dosw.semana_2.pokemon.Ejercicio4Patrones;
 public class AdaptadorCargadorLento implements SistemaAbastecimiento {
-    private CargadorLento cargador;
+    private final CargadorLento cargador;
 
     public AdaptadorCargadorLento(CargadorLento cargador) {
         this.cargador = cargador;
