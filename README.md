@@ -1,8 +1,8 @@
 # DOSW_BITACORA
 
-Bitácora de Sara Viviana Arteaga para el curso de Diseño y Operación de Sistemas de Software (DOSW).
+Bitácora de Sara Viviana Arteaga para el curso DOSW.
 
-Este repositorio reúne, semana a semana, los ejercicios de práctica realizados en clase y en talleres: desde el manejo de la Stream API de Java hasta la aplicación de los patrones de diseño GoF (creacionales, estructurales y de comportamiento) sobre distintos casos de estudio.
+Este repositorio reúne, semana a semana, los ejercicios de práctica realizados en clase y en talleres.
 
 ---
 
@@ -11,25 +11,23 @@ Este repositorio reúne, semana a semana, los ejercicios de práctica realizados
 ```
 src/main/dosw/
 ├── semana_1/
-│   └── streams             Introducción a la API de Streams de Java
+│   └── streams             
 ├── semana_2/
-│   └── pokemon             Streams avanzados + primer acercamiento a patrones de diseño
-│       ├── Ejercicio1..20      (streams con tema Pokémon)
-│       └── EjercicioNPatrones  (un patrón de diseño por carpeta, N = 1 a 12)
+│   └── pokemon            
+│       ├── Ejercicio1..20      
+│       └── EjercicioNPatrones  
 └── semana_3/
-    └── Taller4             Taller integrador: 10 ejercicios, cada uno combina
-        └── Ejercicio1..10      dos patrones de diseño sobre un caso de negocio real
+    └── Taller4            
+        └── Ejercicio1..10     
 ```
 
-Cada carpeta de ejercicio es independiente y contiene sus propias clases Java y, cuando aplica, su propio Main.java ejecutable.
-
-Los ejercicios de semana_3/Taller4 ya cuentan cada uno con su propio README.md (descripción del problema, solución propuesta, patrones implementados, estructura de clases y ejecución), así que aquí solo se indexan. El resto de la bitácora (semana 1 y semana 2) se describe completa en este mismo documento.
+Los ejercicios de semana_3/Taller4 ya cuentan cada uno con su propio README.md con descripción del problema, solución propuesta, patrones implementados, estructura de clases y ejecución. El resto de la bitácora de semana 1 y semana 2 se describe completa en este mismo documento.
 
 ---
 
 ## Semana 1 — Streams (semana_1/streams)
 
-Cinco ejercicios introductorios a la API de Streams de Java (filter, map, sorted, collect, reduce, anyMatch) usando listas de números, palabras y record (usuarios, transacciones).
+Contiene cinco ejercicios introductorios a la API de Streams de Java (filter, map, sorted, collect, reduce, anyMatch) usando listas de números, palabras y record.
 
 | Clase | Descripción |
 |---|---|
@@ -43,7 +41,7 @@ Cinco ejercicios introductorios a la API de Streams de Java (filter, map, sorted
 
 ## Semana 2 — Pokémon: Streams y Patrones (semana_2/pokemon)
 
-### Streams (Ejercicio1 a Ejercicio20)
+### Streams
 
 20 ejercicios de dificultad creciente sobre dos modelos de apoyo: Pokemon (id, nombre, tipo, nivel, poderCombate, región, legendario) y Entrenador (id, nombre, medallas, equipo de Pokemon).
 
@@ -70,7 +68,7 @@ Cinco ejercicios introductorios a la API de Streams de Java (filter, map, sorted
 | Ejercicio19 | top de entrenadores. |
 | Ejercicio20 | estadísticas combinadas del sistema. |
 
-### Patrones de diseño (EjercicioNPatrones)
+### Patrones de diseño 
 
 | Carpeta | Patrón | Caso de uso |
 |---|---|---|
@@ -114,27 +112,10 @@ Este trabajo tiene como objetivo mostrar cómo un producto puede representar a s
 
 El manual incluye:
 
-- Nombre e identidad de la marca
+- Nombre y eslogan de la marca
 - Público objetivo
-- Valores y propuesta de valor
 - Elementos visuales de diseño
 - Uso de colores y tipografías
-- Aplicaciones de la identidad
-- Estrategias de comunicación orientadas a fortalezas personales
-
-Enlaces:
-
-- src/main/dosw/semana_3/Taller4/Ejercicio1/README.md
-- src/main/dosw/semana_3/Taller4/Ejercicio2/README.md
-- src/main/dosw/semana_3/Taller4/Ejercicio3/README.md
-- src/main/dosw/semana_3/Taller4/Ejercicio4/README.md
-- src/main/dosw/semana_3/Taller4/Ejercicio5/README.md
-- src/main/dosw/semana_3/Taller4/Ejercicio6/README.md
-- src/main/dosw/semana_3/Taller4/Ejercicio7/README.md
-- src/main/dosw/semana_3/Taller4/Ejercicio8/README.md
-- src/main/dosw/semana_3/Taller4/Ejercicio9/README.md
-- src/main/dosw/semana_3/Taller4/Ejercicio10/README.md
-- src/main/dosw/semana_3/ManualIdentidad/README.md
 
 ---
 
@@ -144,19 +125,4 @@ Enlaces:
 - IDE: IntelliJ IDEA (.idea incluido)
 
 ---
-
-## Ejecución general
-
-```bash
-cd src/main/dosw/<semana>/<carpeta>
-javac *.java
-java Main
-```
-
-Streams (semana 1 y 2):
-
-```bash
-cd src/main/dosw/semana_1/streams
-javac Ejercicio1.java
-java main.dosw.semana_1.streams.Ejercicio1
 ```
