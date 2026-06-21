@@ -176,9 +176,6 @@ A continuación, el esquema de clases de cada ejercicio de patrones.
 | ControlJuego | Invocador, dispara el comando asignado a cada botón |
 | Main | Clase de prueba |
 
-#### Ejercicio10Patrones — No implementado
-
-No existe esta carpeta en el repositorio. El ejercicio 10 de patrones quedó pendiente.
 
 #### Ejercicio11Patrones — Strategy
 
